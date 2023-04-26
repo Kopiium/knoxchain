@@ -15,7 +15,7 @@ Knoxchain is a blockchain-based voting system that utilizes digital IDs to ensur
 To get started with Knoxchain, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies (see `requirements.txt`).
+2. Install the required dependencies.
 3. Run the network listener on a specific address using `cargo run --bin network`.
 4. Create a digital ID for each voter using `DigitalID::new(user_id: String)`.
 5. Verify the digital ID using `DigitalID::verify_digital_id()`.
